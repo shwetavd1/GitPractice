@@ -1,3 +1,9 @@
 <Solution>
+  <Folder Name="/CSharpLearning/">
+    <Project Path="../CSharpTutorials/CSharpTutorials.csproj" Id="b19ad431-8680-4f72-bce0-bb228b6db801" />
+  </Folder>
+  <Folder Name="/DesignPattern/" />
+  <Folder Name="/OopsLearning/" />
+  <Folder Name="/UnitTesting/" />
   <Project Path="NetLearning.csproj" />
 </Solution>
