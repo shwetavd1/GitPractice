@@ -1,11 +1,6 @@
 <Solution>
-  <Folder Name="/CSharpTutorials/">
-    <Project Path="CSharpTutorials/CSharpTutorials.csproj" />
-  </Folder>
-  <Folder Name="/CSharpTutorialsTests/">
-    <Project Path="CSharpTutorialsTests/CSharpTutorialsTests.csproj" />
-  </Folder>
-  <Folder Name="/NetLearning/">
-    <Project Path="ClassLibrary1/ClassLibrary1.csproj" />
-  </Folder>
+  <Project Path="New folder/CSharpTutorials/CSharpTutorials.csproj" />
+  <Project Path="New folder/CSharpTutorialsTests/CSharpTutorialsTests.csproj" />
+  <Project Path="New folder/NetLearning/NetLearning.csproj" Id="1c40ca3c-9574-4b3a-8eff-659029a7e770" />
+  <Project Path="NewCSharpTutorialsTests/NewCSharpTutorialsTests.csproj" Id="4a17257a-1b9e-42ea-bb1b-3ca8ea0d4342" />
 </Solution>
