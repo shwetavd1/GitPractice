@@ -21,6 +21,13 @@ namespace CSharpTutorialsTests
             _calculator = new Calculator();
         }
 
+        /* alternate option for setup - constructor */
+        //private readonly Calculator _calculator;
+        //public CSharpTutorialsTests()
+        //{
+        //    _calculator = new Calculator();
+        //}
+
         //when the numbers and sum is positive
         [Test]
         public void AdditionOfPositiveNumbersReturnsCorrectSum_Test()
@@ -35,7 +42,8 @@ namespace CSharpTutorialsTests
 
         }
 
-        //multiple test cases for addition method
+        //multiple test cases for addition method if the signs are different
+        
         [TestCase(-1, -2, -3)]
         [TestCase(-1, 2, 1)]
         [TestCase(1, -2, -1)]
@@ -44,6 +52,18 @@ namespace CSharpTutorialsTests
             int addition = _calculator.addition(first, second);
 
             Assert.That(expected_output, Is.EqualTo(addition));
+        }
+
+        //if the result exceeds integer limit
+        public void Addition_Overflow_Exception()
+        {
+            Assert.Throws<OverFlowException>(() =>
+            {
+                checked
+                {
+                    int result = int.MaxValue + 1;
+                }
+            });
         }
 
         /* subtraction

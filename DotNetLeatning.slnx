@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="MockTutorials/MockTutorials.csproj" Id="7de5b697-bd5a-4634-8059-1ca1b86c69c3" />
   <Project Path="New folder/CSharpTutorials/CSharpTutorials.csproj" />
   <Project Path="New folder/CSharpTutorialsTests/CSharpTutorialsTests.csproj" />
   <Project Path="New folder/NetLearning/NetLearning.csproj" Id="1c40ca3c-9574-4b3a-8eff-659029a7e770" />
